@@ -35,12 +35,21 @@ The mounting bracket design is located in the mechanical folder above.
 ## Camera Slider Mounting  
 The following camera sider is used:  
 https://www.bhphotovideo.com/c/product/193311-REG/Velbon_SUPER_MAG_SLIDER_Super_Mag_Slider.html
-Two spacers are to be mounted underneath the slider mounting board. The board dimensions and the spacer stl file can be found in the mechanical folder.  
+Two spacers are to be mounted underneath the slider mounting board. 
+The board dimensions and the spacer stl file can be found in the mechanical folder.  
 
 ## Assembly
-Print out all of the parts from the mechanical folder. If you do not have the printer then you can get them done outside but it will become rather costly. Getting a new 3D printer will probably be cheaper in a long run.
-Use a 14"x10"x0.63": piece of wood to mount the components on.  
-https://www.homedepot.com/p/Rubbermaid-Black-Laminated-Wood-Shelf-10-in-D-x-36-in-L-4B2500BLA/100200907
+Print out all of the parts from the mechanical folder. 
+Attach the two spacers from the mechanical folder ot the camera base board towards the edge of the board.
+Mount the camera slider onto the camera base
+![image](https://user-images.githubusercontent.com/48537944/188252379-55d57937-e123-4d6c-a2df-53946af8d5ef.png) 
+For dimensions refer to the mechanical folder.
+Drill the clearance holdes for the mounting bolts. Use 3/8"-16 bolts.    
+
+ 
+
+
+Use a 26"x12"x3/4" piece of wood to mount the camera silder on.  
 Additionally cut two additional pieces of wood size 7"x7"x0.63"and 7"x3.6"x0.63". These will be used as a standoff for the projector transport. 
 This will work for the Chinon 2500GL but if other type of projector is used then you will have to figure out how high the the transport has to sit for the proper alignment with the camera.
 Assemble the three pieces of wood as shown.
