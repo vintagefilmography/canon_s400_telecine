@@ -12,18 +12,20 @@ A simple posprocessing script takes care of multiple duplicate frames and black 
 
 ##   Shutter Wheel Mod
 The projector has three shutter blades. For this type of transfer it is necessary to remove two of the blades by snipping them off with the sheers. The blade that blanks out the film transition is left in.  
-https://www.ebay.com/itm/175028855543  
   
 ## Gate Mask Removal
-This step is not completely necessary but it does provide film overscan and makes the film holes visible which some people like.   
+This step is not completely necessary but it does provide film overscan and makes the film holes visible which some people like. The mask is a part of the S8/R8 switching mechanism. It is recommended to remove the mechanism and then cutting the masks out or bending them repetetively until they snap off. Be careful here because the components are very fragile.  
 
 
 ## Motor  Speed  
-The motor speed should be reduced for 8 FPS operation. The unmodified projector low speed setting os still larger than 8  FPS. Th espeed reduction is achieved by installing a power resistor in series with the rheostat (speed adjust potentiometer).
-2.7A for this type motor https://www.amazon.com/gp/product/B00PNEPF5I/
+The motor speed should be reduced for 8 FPS operation. The unmodified projector low speed setting is still larger than 8  FPS. The speed reduction is achieved by installing a power resistor in series with the rheostat (speed adjust potentiometer).
+![image](https://user-images.githubusercontent.com/48537944/188249456-6fbd4ef9-7bd1-4362-b24e-261fc122be61.png)  
+Two 1000 Ohm, 10W resistors are used in series with the motor rotor to get the speed reduction.   
+The bypass switch, labelled as 4FPS, bypasses the power resistors and gives the original speed. Can be useful for rewinding.  
+The resistors are mounted on a custom aluminum heatsik as shown in the picture. The heatsink is secured down with a 4mm screw mounted on the top of the unit.
 
 ## Fan
-The fan can be removed. It was required originally to cool the light and is no longer needed for the led light.
+The fan can be removed. It was required originally to cool the light and is no longer needed for the led light. For long scans a new fan can be attached to the back cover louvres to keep the resistors cool.  
 
 ## Light
 The following light is recommended.  
