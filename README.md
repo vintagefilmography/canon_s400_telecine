@@ -40,70 +40,39 @@ The board dimensions and the spacer stl file can be found in the mechanical fold
 
 ## Assembly
 Print out all of the parts from the mechanical folder. 
-Attach the two spacers from the mechanical folder ot the camera base board towards the edge of the board.
-Mount the camera slider onto the camera base
+Attach the two spacers from the mechanical folder on the camera base board towards the edges of the board.
+
+Drill two holes on the slider base board as shown in the following image:  
+![image](https://user-images.githubusercontent.com/48537944/188285288-be6101ba-e37c-45ce-ac11-c686bb8371bb.png)
+Drill the clearance holdes for the mounting bolts. Use 3/8"-16 bolts.  
+Mount the slider onto the slider board.
 ![image](https://user-images.githubusercontent.com/48537944/188252379-55d57937-e123-4d6c-a2df-53946af8d5ef.png) 
-For dimensions refer to the mechanical folder.
-Drill the clearance holdes for the mounting bolts. Use 3/8"-16 bolts.    
-
- 
-
-
-Use a 26"x12"x3/4" piece of wood to mount the camera silder on.  
-Additionally cut two additional pieces of wood size 7"x7"x0.63"and 7"x3.6"x0.63". These will be used as a standoff for the projector transport. 
-This will work for the Chinon 2500GL but if other type of projector is used then you will have to figure out how high the the transport has to sit for the proper alignment with the camera.
-Assemble the three pieces of wood as shown.
-![base](https://user-images.githubusercontent.com/48537944/173167740-4549d843-7a39-4b3f-81aa-acde52419084.jpg)
-Mount the projector transport bracket to the base as shown.
-![transport_bracket_assembly](https://user-images.githubusercontent.com/48537944/173168094-8e724da4-6d37-4858-b55a-3e116a983f5c.jpg)
-Mount the transport onto the bracket using the original transport mounting screws.
-The transport mounting will need additional support to prevent the film shake. Use an L bracket  
-https://www.homedepot.com/p/Everbilt-3-in-Black-Corner-Brace-4-Pack-13741/300985591
-and mount it as shown. Install the spacer underneath the bracket so that the transport sits perfectly vertical. The spacer is included in the mechanical folder. If the transport is not vertical then adjust the spacer accordingly. Tilted transport will cause focus issues.
-![L-bracket1](https://user-images.githubusercontent.com/48537944/173203915-0b7c2205-18c9-4ed2-acd2-2f6386e38e1f.jpg)
+Mount the slider and the slider base onto the main board. Drill a hole through the main board, spacer and the slider board as shown:  
+![image](https://user-images.githubusercontent.com/48537944/188285610-f541bbd4-3889-4917-ad29-3ffe461c2acc.png)
+If you plan to use the rubber bumpers under the main board then it is not necessary to drill a clearance hole for the  
+mounting screw head. But if no bumpers are used a shallow clearance hole has to be drilled so that the screw head  
+is not protruding through the bottom of the main board which could scratch the surface of the table or whatever stand you are using for the   
+scanner. Size 10 bolt is adequate. A wingnut is also handy when it comes time to dismentle the unit. Adjust the wingnut tension so that the slider and the camera   
+sit solid on the main board. A small vertical adjustment can be made by instrting a thin plastic card under the second spacer.
 
 Mount the macro lens onto the camera.  
 Mount the camera onto the slider.  
-Turn the camera on and position it so that the film gate is visible and adjust the zoom so that the film gate covers most of the camera display. Set the slider knobs about half way of the travel. Now, slide the camera on the base board left and right and forward and backwards until the gate is centered in the camera display. Mark the position of the slider  on the base board.  
-Remove the camera from the slider.
-Place the slider upside down on the table and place a piece of white paper over it. Trace the outline and teh mounting holes as the first graders do.  
-https://craft-art.com/tracing-pictures/  
-Cut the outline with the scissors and place it on the board so that it is aligned with the marked up outline on the board done in the previous step. Drill the holes. Remove the paper template and mount the slider onto the board using the appropriate size screws.  
-Light Mounting.    
-The light has to be mounted in front of the gate.    
-(This is still work in progress -- will be updated shortly)    
-Takeup reel mount.    
-Use the microphone stand  
-https://www.amazon.com/dp/B07F82BPLV  
-Remove the microphone adapter and install the takeup motor bracket.   
-Mount the takeup motor onto the bracket using the M3x8 screws  
-https://www.amazon.com/gp/product/B076J3W7R4  
-Slide the takeup spindle over the motor shaft.  
-Slide the takeup reel over the spindle.  
-Install an M3 wingnut onto the M3x25 flathead screw and tighten it.  
-Slide a flat M3 washer over the screw shaft to create the "clutch" mechanism.  
-Push the screw through the spindle center until it engages with the motor shaft.  
-Turn the wingnut in until snug. The tightness will determine the amount of pull on the film.  
-You do not want it too tight becaue it can cause film damage.  
-Solder two wires to the motor terminals.  
-Connect the wires to the speed controller.  
-https://www.amazon.com/gp/product/B071H2YQG5/  
-Connect the controller to the 12VDC source.  
+Turn the camera on. Position the projector close to the camera so that the film gate is visible and adjust the zoom so that the film gate covers most of the camera display. Adjust focus by turning the slider focus knob.   
 
-Proceed similarly with the supply reel. 
-Remove the mic adapter from the microphone stand. install the reel mount assembly onto the mic stand.
-Install the small clip onto the reel spindle using a small metal pin. 
-https://www.amazon.com/Neiko-50412A-Assortment-Storage-Pieces/dp/B076B4WT1V/
+### Light Mounting.    
+Mount the light bracket onto the light as shown.
+![image](https://user-images.githubusercontent.com/48537944/188285935-7f239f62-d757-48c0-aed4-c681e4d2e22f.png)
+Mount the light assembly to the projector front as shown. Use a 4mm screw.
+![image](https://user-images.githubusercontent.com/48537944/188285995-0846be11-45be-4046-b469-8dabcbcfa438.png)
 
-![supply-reel-mount_assy](https://user-images.githubusercontent.com/48537944/173245376-b92633f0-b09d-489a-a38e-4be9c1ece796.jpg)
-Controller installation  
-Afix the mounting bracket onto the base board by using two wood screws.
-Mount the SMC02 cntroller onto the controller mount but sliding it into the mount opening all the way until locked in. 
-Wire up the controller as shown.
-![smc02-wiring](https://user-images.githubusercontent.com/48537944/173245893-993bcfc1-24d4-49e9-b0c8-dc20c5d2387e.jpg)
 
-Stepper Installation  
-Mount the stepper onto the stepper racket using the M4 screws and nuts.
+### Motor Speed Modification  
+Cut the brown wire from the rheostat terminal and install a power resistor between the rheostat and teh brown wire as shown.  
+
+
+
+
+
 Mount the sleeve over the motor shaft and then side the pulley over the sleeve. Do not tighten the locking slugs. 
 Align the pulley with the transport cam and install the belt. Slide the stepper assembly left and right on the base board until the belt is aligned and has 
 good enough tension on it. Mark up the stepper bracket location.  
