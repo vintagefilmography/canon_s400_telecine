@@ -1,12 +1,13 @@
 # canon_s400_telecine
   
-This is one of the simplest telecine systems that is capable of creating of very good quality 8mm video.
-The setup consists of a modified Canon S400 projector and the T3i Canon camera. The setup provides the 8mm film capture running at  up to 8 FPS and generates the video at 1280x972 resolution for the super 8 film. The R8 resoolution is lower but still good quality. It is to be noted that the Laowa macro lens is capable of higher resolution but it makes the setup much trickier.  
+This is one of the simplest telecine systems that is capable of creating a very good quality 8mm video.
+The setup consists of a modified Canon S400 projector and the T3i Canon camera. The setup provides the 8mm film capture running at  up to 8 FPS and generates the video at 1280x972 resolution for the super 8 film. The R8 resoolution is lower but still good quality. It is to be noted that the Laowa macro lens is capable of higher resolution but it makes the setup much trickier.  More on that later in this doc.  
 The purpose of this  readme is to provide the instructions to the user on how to modify the existing 8mm canon projector for the video capture directly into the camera.  
-Similar to other projects of this type, this one also requires several modifications to the projector including the light change, and motor speed change. The diffecence is that the capture is run asynchronously i.e. the projector speedis not matched to the camera FPS but instead it runs at any speed within the 8FPS  ransge.
-A simple posprocessing scripts take care of multiple duplicate frames and black frames. 
+Similar to other projects of this type, this one also requires several modifications to the projector including the light change, and motor speed change. The diffecence is that the capture is run asynchronously i.e. the projector speed is not matched to the camera FPS but instead it runs at any speed within the 8FPS  ransge.
+A simple posprocessing script takes care of multiple duplicate frames and black any frames. 
 
-![system-assembly](https://user-images.githubusercontent.com/48537944/173163427-688c6a8b-efea-417d-83be-57d9c426cfe2.jpg)
+![image](https://user-images.githubusercontent.com/48537944/188248671-e75d3b05-5946-44a3-b92e-6547d1d91683.png)
+
 
 
 ##   Shutter Wheel Mod
