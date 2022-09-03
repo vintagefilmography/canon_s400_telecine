@@ -30,7 +30,7 @@ The fan can be removed. It was required originally to cool the light and is no l
 ## Light
 The following light is recommended.  
 https://www.amazon.com/gp/product/B07YSF3X8K/  
-The mounting bracket design is located in the hardware folder above.
+The mounting bracket design is located in the mechanical folder above.
 
 ## Camera Slider Mounting  
 The following camera sider is used:  
