@@ -55,12 +55,11 @@ Mount the slider onto the slider board.
 ![image](https://user-images.githubusercontent.com/48537944/188252379-55d57937-e123-4d6c-a2df-53946af8d5ef.png) 
 Mount the slider and the slider base onto the main board. Drill a hole through the main board, spacer and the slider board as shown:  
 ![image](https://user-images.githubusercontent.com/48537944/188285610-f541bbd4-3889-4917-ad29-3ffe461c2acc.png)
-If you plan to use the rubber bumpers under the main board then it is not necessary to drill a clearance hole for the  
-mounting screw head. But if no bumpers are used a shallow clearance hole has to be drilled so that the screw head  
-is not protruding through the bottom of the main board which could scratch the surface of the table or whatever stand you are using for the   
-scanner. Size 10 bolt is adequate. A wingnut is also handy when it comes time to dismentle the unit. Adjust the wingnut tension so that the slider and the camera   
+If you plan to use the rubber bumpers under the main board then it is not necessary to drill a clearance hole for the 
+mounting screw head. But if no bumpers are used a shallow clearance hole has to be drilled so that the screw head 
+is not protruding through the bottom of the main board which could scratch the surface of the table or whatever stand you are using for the 
+scanner. Size 10 bolt is adequate. A wingnut is also handy when it comes time to dismentle the unit. Adjust the wingnut tension so that the slider and the camera 
 sit solid on the main board. A small vertical adjustment can be made by instrting a thin plastic card under the second spacer.
-
 Mount the macro lens onto the camera.  
 Mount the camera onto the slider.  
 Turn the camera on. Position the projector close to the camera so that the film gate is visible and adjust the zoom so that the film gate covers most of the camera display. Adjust focus by turning the slider focus knob.   
