@@ -91,7 +91,51 @@ Turn the projector off.
 Remove the SD card and copy the video to a PC.
 
 ## Post Processing  the video to a PC.  
+The video will contain many frames with dark bands which are result of asynchronous operation.  
+In another words the camera and the projector are not synched and the camera will pick up frames that contsin film transitions.
+Additionally, since the frame rate of the camera is much faster than the projectors, there will be lots of duplicate frames.
+It is easy to remove the duplicates and the transition frames by using the Avisynth remove_dups script.  
+The first step in getting the the script working is to get Avisynth from:
+http://avisynth.nl/index.php/Main_Page
+Avisynth does not run as a standalone application. It is a tool that allows video editors and viewers to run the script.  
+The script is essentially a text file that contains the avisynth commands for video processing.  
+One video  tool that is very handy for video processing is called VirtualDub. 
+In addition to basic video processing, VirtialDub reads the avisynth script as well.  
+Download VirtualDub from here:
+https://sourceforge.net/projects/vdfiltermod/files/
+Run VirtualDub.  
+Should get a dub window that looks like the following picture:
+![image](https://user-images.githubusercontent.com/48537944/188292750-e048727a-57be-484a-8ec2-93b292a6a2a8.png)  
 
+Download the remove_dups.avs script from the software folder.
+Open it up in any text editor like Notepad.
+Change the clip source path to wherever the clip is stored.
+#=============================================================================================
+# Clip source.
+#=============================================================================================
+
+film = "F:\canon\clip1_raw.avi"  # source clip, you must specify the full path here
+
+Change the threshold:
+source= AviSource(film).assumefps(play_speed).trim(trim_begin,0).converttoYV12()
+trimming= framecount(source)-trim_end
+source1= trim(source,0,trimming)
+source2= AssumeTFF(source1)
+fc=Framecount(source2)
+source3 = GetDups(source2,mode=-2,threshold=30.0)
+source4 = Trim(source3,0,fc/3).coloryuv(autowhite=true)
+#Eval(film)
+
+Here it is set to 30. Lower threshold will have less chance of saving the bad frames but if it is too low it may remove some good frames.  
+It is a good idea to check the frame count uo front by running teh projector at low speed and counting the frames for a minute or two to  
+determine the frame rate and then run the complete reel and multiply the rate with duration. Alternatively a rough frame count can be obtained from the 
+size of the reel.
+
+Once done wit the script, just drag the script file into the VirtualDub window.
+After a minute or so the video first frame will be displayed.  
+At that point, set the video compression in the video pulldown and save the video.
+No further processing will be required, although soemtimes you may get a few blank frames.
+If that happens run the remove_black_frames.avs script included here. 
 
 
 
