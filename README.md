@@ -107,31 +107,36 @@ Run VirtualDub.
 Should get a dub window that looks like the following picture:
 ![image](https://user-images.githubusercontent.com/48537944/188292750-e048727a-57be-484a-8ec2-93b292a6a2a8.png)  
 
-Download the remove_dups.avs script from the software folder.
-Open it up in any text editor like Notepad.
+Using the avisynth script can get a bit tricky because there are some many plugins out there and you will usually  
+run into a plugin missing error. That is why I put a complete scripts zip file in in the software folder. This contains  
+the required plugins.  
+Download the zip file and unzip it somewhere in your work directory. 
+
+
+Go to the scripts directory and open up remove_dups.avs in any text editor like Notepad or any other text editor..
 Change the clip source path to wherever the clip is stored.
 #=============================================================================================
 # Clip source.
 #=============================================================================================
 
-film = "F:\canon\clip1_raw.avi"  # source clip, you must specify the full path here
-
-Change the threshold:
-source= AviSource(film).assumefps(play_speed).trim(trim_begin,0).converttoYV12()
-trimming= framecount(source)-trim_end
-source1= trim(source,0,trimming)
-source2= AssumeTFF(source1)
-fc=Framecount(source2)
-source3 = GetDups(source2,mode=-2,threshold=30.0)
-source4 = Trim(source3,0,fc/3).coloryuv(autowhite=true)
-#Eval(film)
-
+film = "F:\canon\clip1_raw.avi"  # source clip, you must specify the full path here  
+  
+Change the threshold:  
+source= AviSource(film).assumefps(play_speed).trim(trim_begin,0).converttoYV12()  
+trimming= framecount(source)-trim_end  
+source1= trim(source,0,trimming)  
+source2= AssumeTFF(source1)  
+fc=Framecount(source2)  
+source3 = GetDups(source2,mode=-2,threshold=30.0)  
+source4 = Trim(source3,0,fc/3).coloryuv(autowhite=true)  
+#Eval(film)  
+  
 Here it is set to 30. Lower threshold will have less chance of saving the bad frames but if it is too low it may remove some good frames.  
 It is a good idea to check the frame count uo front by running teh projector at low speed and counting the frames for a minute or two to  
 determine the frame rate and then run the complete reel and multiply the rate with duration. Alternatively a rough frame count can be obtained from the 
 size of the reel.
 
-Once done wit the script, just drag the script file into the VirtualDub window.
+Once done with the script, just drag the script file into the VirtualDub window.
 After a minute or so the video first frame will be displayed.  
 At that point, set the video compression in the video pulldown and save the video.
 No further processing will be required, although soemtimes you may get a few blank frames.
